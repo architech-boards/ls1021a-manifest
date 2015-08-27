@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote
+        name        = "freescale"
+        fetch       = "git://git.freescale.com/ppc/sdk/"
+    />
+
+    <project
+        name        = "meta-fsl-arm"
+        remote      = "freescale"
+        revision    = "b529ac5ba06a0d69d7e6e295776a4d684c6e1c56"
+    />
+    <project
+        name        = "meta-fsl-ppc"
+        remote      = "freescale"
+        revision    = "ed8d8f097eb9fb9c4d76cfeb617da5ce72d9b414"
+    />
+    <project
+        name        = "meta-java"
+        remote      = "freescale"
+        revision    = "65c89b93fa9d4c89e1dfb5b795075cbadb541009"
+    />
+    <project
+        name        = "meta-oe"
+        remote      = "freescale"
+        revision    = "4a44c4107899363b22c01eb5621b0c86db1c659c"
+    />
+    <project
+        name        = "meta-virtualization"
+        remote      = "freescale"
+        revision    = "df44ec7a68c8e4b713a458a5b93e903103dea85c"
+    />
+    <project
+        name        = "meta-cloud-services"
+        remote      = "freescale"
+        revision    = "c040904422eb3c13f7abb66996bed8d675ada860"
+    />
+    <project
+        name        = "meta-fsl-networking"
+        remote      = "freescale"
+        revision    = "6eb28ed659bbadfa470237dfce98bcbf53c18fe1"
+    />
+    <project
+        name        = "meta-fsl-toolchain"
+        remote      = "freescale"
+        revision    = "a253b3594d8d9e0a4ed869d1fb502c395c4438ac"
+    />
+    <project
+        name        = "meta-linaro"
+        remote      = "freescale"
+        revision    = "9e742fbb8cbb6d2087fb41429a77fcf0ce50dbb8"
+    />
+    <project
+        name        = "meta-security"
+        remote      = "freescale"
+        revision    = "9f4c3849521465b459845dcc1a7a885bacaae9d9"
+    />
+    <project
+        name        = "poky"
+        remote      = "freescale"
+        revision    = "18837ea4cdd4fdab608e0a032a11a2dfb6b1ee1a"
+    />
+</manifest>
